@@ -123,7 +123,7 @@ def calculate_summary_statistics(simulation_results_list):
         'Raw Failures': failures_per_simulation
     }
 
-st.sidebar.header("Bank Simulation Parameters")
+st.sidebar.header("Simulation Parameters")
 banking_data = load_banking_data_from_file()
 st.sidebar.success(f"✅ Loaded {len(banking_data)} banks from banks_data.csv")
 st.sidebar.subheader("Simulation Settings")
